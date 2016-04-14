@@ -1,0 +1,96 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-size: cover;
+  color: #fff;
+  font-family: Helvetica Neue, Verdana, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  /*background: url("brand_campaign_homepage_dark.jpg") no-repeat top center;*/
+  /*background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url("brand_campaign_homepage_dark.jpg");*/
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url("background.jpg");
+}
+
+
+h2 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0 0 70px;
+  position: absolute;
+  text-transform: uppercase;
+  z-index: 10;
+}
+
+.logo-container {
+    text-align: center;
+    padding-top:6px;
+}
+
+.graph-container {
+  align-content: stretch;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  padding-bottom: 45px;
+}
+
+.epoch {
+  flex-grow: 1;
+  height: 120px;
+  margin: 10px 0;
+  z-index: 0;
+}
+
+.epoch-theme-dark .epoch .axis path, .epoch-theme-dark .epoch .axis line {
+  stroke:  rgba(255, 255, 255, 0.5);
+  stroke-width: 2px;
+}
+
+.epoch-theme-dark .epoch .axis line {
+
+}
+
+.epoch-theme-dark .epoch .axis .tick text {
+  fill:  chartreuse;
+}
+
+.epoch-theme-dark .epoch .area {
+  fill:  dodgerblue !important;
+}
+
+.total-count {
+  font-size: 14px;
+  vertical-align: top;
+  /* color: white; */
+  /*background-color: blue;*/
+  border-radius: 7px;
+  text-align: center;
+  margin-left: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.footer {
+  /*position: fixed;*/
+  width: 100%;
+  bottom: 0;
+  height: 45px;
+  font-size: 12px;
+  
+  text-align: center;
+}
+
+.footer img {
+  height: 25px;
+  vertical-align: middle;
+}
+
+.footer a, .footer a:visited {
+  color: #fff;
+}
