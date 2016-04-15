@@ -6,7 +6,7 @@ module.exports = {
     twitter_consumer_secret: "8sH3Mbn02GLqPkfu0aPiTDFjvVtdtQ5hGlAJC26nETSzjMrH8X",
     twitter_access_token_key: "2533159039-EuCUyA0UZH54pE1lNpXO8ELYZydPJxrHYFqwmfu",
     twitter_access_token_secret: "xc70KDLZAZL5ZGRS5PGWTjGyzjeK3y9aCiOLxDIsPLp95",
-    keywords: ["Hilary Clinton", "Bernie Sanders", "Donald Trump", "Ted Cruz"]
+    keywords: ["Hillary Clinton, Hilary Clinton", "Bernie Sanders", "Donald Trump", "Ted Cruz"]
 }
 
 
